@@ -7,6 +7,3 @@ Exercício de recriar a interface da Netflix a fim de fixar o aprendizado sobre 
 
 ## Professor do projeto
 :man_teacher: [Felipe Aguiar](https://github.com/felipeAguiarCode)
-
-## Progresso do exercício
-Em andamento
