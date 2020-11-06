@@ -1,45 +1,93 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style/main.css" />
-    <title>Netflix | Clone</title>
-  </head>
-  <body>
-    <header>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style/main.css" />
+
+  <!-- owl css -->
+  <link rel="stylesheet" href="./style/owl/owl.carousel.min.css" />
+  <link rel="stylesheet" href="./style/owl/owl.theme.default.min.css" />
+
+  <title>Netflix | Clone</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h2 class="logo">NETFLIX</h2>
+      <nav>
+        <a href="#">Início</a>
+        <a href="#">Séries</a>
+        <a href="#">Filmes</a>
+        <a href="#">Documentários</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="main-series">
       <div class="container">
-        <h2 class="logo">NETFLIX</h2>
-        <nav>
-          <a href="#">Início</a>
-          <a href="#">Séries</a>
-          <a href="#">Filmes</a>
-          <a href="#">Documentários</a>
-        </nav>
-      </div>
-    </header>
-    <main>
-      <div class="main-series">
-        <div class="container">
-          <h3 class="title">Modern Family</h3>
-          <p class="description">
-            Esta série vencedora do Emmy acompanha a vida de Jay Pritchett e sua
-            eclética família enquanto lidam com os desafios da vida
-            contemporânea em Los Angeles
-          </p>
-          <div class="buttons">
-            <button role="button" class="button">
-              <i class="fas fa-play"></i>
-              Assistir agora
-            </button>
-            <button role="button" class="button">
-              <i class="fas fa-info-circle"></i>
-              Mais informações
-            </button>
-          </div>
+        <h3 class="title">Modern Family</h3>
+        <p class="description">
+          Esta série vencedora do Emmy acompanha a vida de Jay Pritchett e sua
+          eclética família enquanto lidam com os desafios da vida
+          contemporânea em Los Angeles
+        </p>
+        <div class="buttons">
+          <button role="button" class="button">
+            <i class="fas fa-play"></i>
+            Assistir agora
+          </button>
+          <button role="button" class="button">
+            <i class="fas fa-info-circle"></i>
+            Mais informações
+          </button>
         </div>
       </div>
-    </main>
-    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
-  </body>
+    </div>
+  </main>
+
+  <div class="carousel-shows">
+    <div class="owl-carousel owl-theme">
+      <div class="item">
+        <img class="box-show" src="./img/atypical.jpg" alt="" srcset="" />
+      </div>
+      <div class="item">
+        <img class="box-show" src="./img/batman-o-cavaleiro-das-trevas.jpg" alt="" srcset="" />
+      </div>
+      <div class="item">
+        <img class="box-show" src="./img/elite.jpg" alt="" srcset="" />
+      </div>
+      <div class="item">
+        <img class="box-show" src="./img/enola-holmes.jpg" alt="" srcset="" />
+      </div>
+      <div class="item">
+        <img class="box-show" src="./img/friends.jpg" alt="" srcset="" />
+      </div>
+      <div class="item">
+        <img class="box-show" src="./img/house-of-cards.jpg" alt="" srcset="" />
+      </div>
+      <div class="item">
+        <img class="box-show" src="./img/para-todos-os-garotos-que-ja-amei.jpg" alt="" srcset="" />
+      </div>
+      <div class="item">
+        <img class="box-show" src="./img/special.jpg" alt="" srcset="" />
+      </div>
+      <div class="item">
+        <img class="box-show" src="./img/the-umbrella-academy.jpg" alt="" srcset="" />
+      </div>
+      <div class="item">
+        <img class="box-show" src="./img/weird-city.jpg" alt="" srcset="" />
+      </div>
+    </div>
+  </div>
+
+  <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+  <script src="js/owl/jquery.min.js"></script>
+  <script src="js/owl/owl.carousel.min.js"></script>
+  <script src="js/setup.js"></script>
+</body>
+
 </html>

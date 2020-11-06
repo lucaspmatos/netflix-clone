@@ -83,3 +83,17 @@ header nav a:hover {
 .button i {
   margin-right: 5px;
 }
+
+.container {
+  margin-left: 10px;
+}
+
+.main-series .container {
+  width: 70%;
+}
+
+.box-show {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
